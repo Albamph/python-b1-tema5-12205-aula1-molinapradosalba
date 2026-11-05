@@ -103,18 +103,23 @@ class DatabaseConnector:
 class SQLDatabase:
     def __init__(self):
         self.connected = False
+        
     def connect(self):
         self.connected = True
+
 
 class PostgresDatabase:
     def __init__(self):
         self.connected = False
+        
     def connect(self):
         self.connected = True
+
 
 class RedshiftDatabase:
     def __init__(self):
         self.connected = False
+        
     def connect(self):
         self.connected = True 
 
