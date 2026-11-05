@@ -123,7 +123,6 @@ class RedshiftDatabase:
     def connect(self):
         self.connected = True 
 
-
 # Por la propia naturaleza del ejercicios no se puede probar imprimiendo por pantalla, 
 # revisa los tests para revisar la corrección de tu propuesta de solución
 # Per la pròpia naturalesa de l'exercicis no es pot provar imprimint per pantalla, 
